@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang=pl dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>formularze</title>
+  </head>
+  <body>
+    <form action="index2.html" method="get" novalidate> <!-- metoda "get" wyświeta informacje  z inp[utów w paski adresu dlatego uzyta jest methot="post" -->
+      <!-- novalidate służy do psrawdzenia poprawności wszystkich wypełnianych pól. Trzeba ją usunąć przed publikacją-->
+      <input type="submit" name="button" value="wyslij">
+      <br>
+      <input type="text" name="login" placeholder="Enter your name" autocomplete="off">
+      <br>
+      <input type="password" name="pswd" placeholder="Enter your password" maxlength="5">
+      <br>
+      <input type="range" name="" value="50">
+      <br>
+      <input type="number" name="" value="" min="1"max="10" step="0.1">
+      <br>
+      <input type="color" name="" value="">
+      <br>
+      <input type="date" name="" value="">
+      <br>
+      <input type="email" name="" value="" required>
+      <br>
+      <input type="file" name="Chose your file" value="">
+      <br>
+      <input type="hidden" name="" value=""> <!-- ukryte pole, którego nie widzi użytkownik -->
+      <br>
+      <br>
+      <input type="image" name="" value=""> <!-- not working -->
+      <br>
+      <br>
+      <input type="checkbox" name="" value=""checked><!-- checkbox do zatwierdzania
+        checkedodpowiada za automatyczne zaznaczenie pola
+       -->
+      <br>
+      <br>
+      <input type="radio" name="color" value="red"> Czerwony
+      <input type="radio" name="color" value="blue"> Niebieski
+       <!-- nie możan odznaczać -->
+      <br>
+      <br>
+      <input type="reset" name="" value="reset"> <!-- usuwa wszystkie wart w formularzu -->
+      <br>
+      <br>
+      <input type="search" name="" value=""> <!-- sluzy do wyszukiwania -->
+      <br>
+      <br>
+      <input type="time" name="" value="">
+      <br>
+      <br>
+      <select name="country" multiple size="2"><!-- multiple size odpowiada za ilość wyświetlonych opcji w oknie. -->
+        <optgroup label="Europa"><!-- grupuje tematycznie opcje -->
+          <option value="pl">Poland</option>
+          <option value="hu">Hungary</option>
+        </optgroup>
+        <optgroup label="North America">
+          <option value="us">USA</option>
+          <option value="cn">Canada</option>
+        </optgroup>
+      </select>
+      <br>
+      <br>
+      <textarea name="name" rows="2" cols="40" placeholder="Write your coment"></textarea>
+
+    </form>
+  </body>
+</html>

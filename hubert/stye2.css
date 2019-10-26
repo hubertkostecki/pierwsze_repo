@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: lightblue;
+}
+.container{
+  background-color: lightgrey;
+  border: solid 4px red;
+  border-radius: 20px;
+  max-width: 500px;
+  position: fixed;
+}
+input{
+  border-radius: 10px
+  border: solid 4px black;
+
+}
+input.phone{
+  max-width: 15%;
+}
+input.button{
+  float: right;
+}
+textarea{
+  max-width: 200px;
+}

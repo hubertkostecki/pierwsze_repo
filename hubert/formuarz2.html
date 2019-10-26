@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="D:\Documents\hubert\stye2.css">
+    <title>formularz</title>
+  </head>
+  <body>
+  <div class="container">
+    <h1>Contact form</h1>
+    <br>
+    <table>
+
+    <form  action="index.html" method="post">
+        <tr>
+          <td>Your Name* </td>
+          <td><input type="text" name="First name" value="" placeholder="First"required></td>
+          <td><input type="text" name="Last name" value="" placeholder="Last"required></td>
+        </tr>
+        <tr>
+          <td>Your E-mail*</td>
+          <td> <input type="email" name="" value="" required></td>
+        </tr>
+        <tr>
+          <td>Phone</td>
+          <td>
+              <input class="phone" type="tel" name="" value="" maxlength="3" placeholder="###"> -
+               <input class="phone"type="tel" name="" value="" maxlength="3" placeholder="###"> -
+               <input class="phone"type="tel" name="" value="" maxlength="3" placeholder="###">
+             </td>
+        </tr>
+        <tr>
+          <td>Message Subject</td>
+          <td> <select  name="Subjects">
+              <option value="Sub1">Subject1</option>
+              <option value="Sub2">Subject2</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Message</td>
+          <td colspan="2"><textarea name="name" rows="8" cols="40"></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="3"> <input class="button" type="submit" name="" value="SUBMIT FORM"></td>
+        </tr>
+
+  </form>
+
+</table>
+<br>
+  </div>
+
+
+
+  </body>
+</html>

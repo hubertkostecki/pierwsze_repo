@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="..\hubert\style.css">
+    <title>formularz</title>
+  </head>
+  <body>
+  <div class="container">
+    <h1>Contact form</h1>
+    <br>
+    <form  action="index.html" method="post">
+        Your Name* <input type="text" name="First name" value="" placeholder="First"required>
+        Your Name* <input type="text" name="Last name" value="" placeholder="Last"required>
+    <br>
+      Your E-mail* <input type="email" name="" value="" required>
+    <br>
+      Phone <input class="phone" type="tel" name="" value="" maxlength="3"> -
+            <input class="phone"type="tel" name="" value="" maxlength="3"> -
+            <input class="phone"type="tel" name="" value="" maxlength="3">
+    <br>
+    Message Subject <select  name="Subjects">
+      <option value="Sub1">Subject1</option>
+      <option value="Sub2">Subject2</option>
+    </select>
+    <br>
+    Message <textarea name="name" rows="8" cols="40"></textarea>
+    <br>
+    <input type="submit" name="" value="SUBMIT FORM">
+
+  </form>
+  </div>
+
+
+
+  </body>
+</html>
